@@ -1,4 +1,4 @@
-import bt_post_order from "day1/BTPostOrder";
+import bt_post_order from "@code/BTPostOrder";
 import { tree } from "./tree";
 
 test("post order", function () {
