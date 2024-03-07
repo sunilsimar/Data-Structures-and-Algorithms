@@ -1,4 +1,4 @@
-import bfs from "day1/BTBFS";
+import bfs from "@code/BTBFS";
 import { tree } from "./tree";
 
 test("bt bfs", function () {
