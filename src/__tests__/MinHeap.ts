@@ -1,4 +1,4 @@
-import MinHeap from "day1/MinHeap";
+import MinHeap from "@code/MinHeap";
 
 test("min heap", function () {
     const heap = new MinHeap();
