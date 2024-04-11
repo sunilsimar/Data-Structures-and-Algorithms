@@ -10,6 +10,9 @@ function search(curr: BinaryNode<number> | null, needle: number): boolean {
     if(curr.value < needle){
         return search(curr.right, needle);
     }
+    if(curr.value == 1){
+        return true;
+    }
 
     return search(curr.left, needle);
 }
